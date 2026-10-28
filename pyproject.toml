@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lawreal12-cvalgo_jd346"
+version = "0.1.0"
+description = "在同一个输入里两两比对，检测计算机视觉算法工程师·提示注入的跨轮传播相关的矛盾表述，把冲突双方原样并排呈现"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "lawreal12" }]
+keywords = ["cli", "analysis", "observability", "evaluation"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://lawreal12.github.io"
+Repository = "https://github.com/lawreal12/cvalgo_jd346"
+Issues = "https://github.com/lawreal12/cvalgo_jd346/issues"
+
+[project.scripts]
+cvalgo_jd346 = "cvalgo_jd346:main"
+
+[tool.setuptools]
+py-modules = ["cvalgo_jd346"]
