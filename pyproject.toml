@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "lawreal12-cvalgo_jd346"
+name = "lawreal12-prompt_injection_propagation_consistency_check"
 version = "0.1.0"
 description = "在同一个输入里两两比对，检测计算机视觉算法工程师·提示注入的跨轮传播相关的矛盾表述，把冲突双方原样并排呈现"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://lawreal12.github.io"
-Repository = "https://github.com/lawreal12/cvalgo_jd346"
-Issues = "https://github.com/lawreal12/cvalgo_jd346/issues"
+Repository = "https://github.com/lawreal12/prompt_injection_propagation_consistency_check"
+Issues = "https://github.com/lawreal12/prompt_injection_propagation_consistency_check/issues"
 
 [project.scripts]
-cvalgo_jd346 = "cvalgo_jd346:main"
+prompt_injection_propagation_consistency_check = "prompt_injection_propagation_consistency_check:main"
 
 [tool.setuptools]
-py-modules = ["cvalgo_jd346"]
+py-modules = ["prompt_injection_propagation_consistency_check"]

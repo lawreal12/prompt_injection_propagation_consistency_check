@@ -1,11 +1,11 @@
-# cvalgo_jd346
+# prompt_injection_propagation_consistency_check
 
 **找出计算机视觉算法工程师·提示注入的跨轮传播里互相矛盾的两处并排列出。**
 
-`cvalgo_jd346` —— 在同一个输入里两两比对，检测计算机视觉算法工程师·提示注入的跨轮传播相关的矛盾表述，把冲突双方原样并排呈现
+`prompt_injection_propagation_consistency_check` —— 在同一个输入里两两比对，检测计算机视觉算法工程师·提示注入的跨轮传播相关的矛盾表述，把冲突双方原样并排呈现
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`cvalgo_jd346.py` 拷走就能用
+- 单文件，`prompt_injection_propagation_consistency_check.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install lawreal12-cvalgo_jd346
+pip install lawreal12-prompt_injection_propagation_consistency_check
 ```
 
 装完直接用命令名调用：
 
 ```bash
-cvalgo_jd346 --help
+prompt_injection_propagation_consistency_check --help
 ```
 
-也可以不用安装，直接把 `cvalgo_jd346.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `prompt_injection_propagation_consistency_check.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ cvalgo_jd346 --help
 ## 用法
 
 ```bash
-python cvalgo_jd346.py --file input.txt
-python cvalgo_jd346.py --text "示例内容"
-python cvalgo_jd346.py --file input.txt --json
+python prompt_injection_propagation_consistency_check.py --file input.txt
+python prompt_injection_propagation_consistency_check.py --text "示例内容"
+python prompt_injection_propagation_consistency_check.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python cvalgo_jd346.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_cvalgo_jd346.py
+python test_prompt_injection_propagation_consistency_check.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_cvalgo_jd346.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/lawreal12/cvalgo_jd346>
+- GitHub 仓库：<https://github.com/lawreal12/prompt_injection_propagation_consistency_check>
 
 ---
 
@@ -79,7 +79,7 @@ python test_cvalgo_jd346.py
 lawreal12 做计算机视觉算法工程师·提示注入的跨轮传播相关的问题，方向对标宇树科技的负责人计算机视觉算法工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://lawreal12.github.io>
-- 仓库：<https://github.com/lawreal12/cvalgo_jd346>
+- 仓库：<https://github.com/lawreal12/prompt_injection_propagation_consistency_check>
 
 ## 许可
 
